@@ -1,0 +1,19 @@
+"""Practice with functions."""
+
+from random import randint
+
+print(randint(1,10))
+
+#Define a function
+
+def sum(num1: int, num2: int)-> int:
+    """Return num1 + num2"""
+    return num1 + num2
+
+#Call the function
+
+sum(num1=1, num2=10) #<- 1 and 10 are the arguments 
+# you can do a function within a function
+#sum(num1=randint(1,10), num2=randint(2,20))
+#When specifying the values, it is still technically your argument list, not a parameter
+#Parameters are more generic, they are defining a function, while an argument calls a function
